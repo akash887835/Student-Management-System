@@ -1,10 +1,8 @@
-// Student Management System - Full Java Console Project
-// Features: Add, Remove, Search, Edit, Display Students + File Handling + Validation
 
 import java.io.*;
 import java.util.*;
 
-// ---------------- Student Class ----------------
+//  Student Class
 class Student implements Serializable {
     private String name;
     private int rollNumber;
@@ -29,7 +27,7 @@ class Student implements Serializable {
     }
 }
 
-// ---------------- Student Management System Class ----------------
+//  Student Management System Class 
 class StudentManagementSystem {
     private List<Student> students;
     private final String FILE_NAME = "students.dat";
@@ -92,7 +90,7 @@ class StudentManagementSystem {
     }
 }
 
-// ---------------- Main Class (Console UI) ----------------
+//  Main Class (Console UI) 
 public class StudentManagementApp {
 
     public static void main(String[] args) {
@@ -194,3 +192,4 @@ public class StudentManagementApp {
         }
     }
 }
+
